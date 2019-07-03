@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Mon formulaire</h2>
+    <!-- Déclaration du formulaire -->
+    <form action="#" method="">
+        <!-- Goupe de champs -->
+        <fieldset>
+            <div>
+                <legend>Nous contacter</legend>
+                <label for="">Votre email : </label>
+                <input type="email" name="emailUser" id="emailUser" placeholder="vch@dawan.fr" required>
+            </div>
+            <div>
+                <label for="">Votre nom : </label>
+                <input type="text" name="lastName" id="lastName" required>
+            </div>
+            <label>Sexe : </label>
+            <div>
+                <input type="radio" name="sex" id="f" checked>
+                <label for="">Femme</label>
+            </div>
+            <div>
+                <input type="radio" name="sex" id="h">
+                <label for="">Homme</label>
+            </div>
+
+            <label>Compétences : </label>
+            <!-- Pour les checkbox le name doit être différent pour chacun -->
+            <div>
+                <input type="checkbox" name="html" id="html">
+                <label for="html">Html</label>
+            </div>
+            <div>
+                <input type="checkbox" name="css" id="css">
+                <label for="css">Css</label>
+            </div>
+            <div>
+                <label for="nbre">Age : </label>
+                <input type="number" name="nbre" id="nbre" placeholder="18" min="18" max="99">
+            </div>  
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+            <div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrire votre texte ici"></textarea>
+            </div>
+            <div>
+                <label for="animaux">Choisir un animal</label>
+                <select name="petsSelect" id="petsSelect">
+                    <optgroup label="Mammifèez">
+                        <option value="cheval">Cheval</option>
+                        <option value="chat">Chat</option>
+                        <option value="chien">Chien</option>
+                    </optgroup>
+                    <optgroup label="Oiseaux">
+                        <option value="perroquet">Perroquet</option>
+                        <option value="héron">Héron</option>
+                    </optgroup>
+                </select>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

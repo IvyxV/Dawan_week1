@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background: blue;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+main {
+    display: flex;
+    padding: 10px;
+    background: beige;
+    width: 75%;
+    margin: auto;
+}
+
+main article {
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        margin: 0;
+        background: green;
+
+    }
+
+    header {
+        text-align: center;
+    }
+
+    main {
+        display: inline-block;
+        background: beige;
+        width: 45%;
+    }
+}

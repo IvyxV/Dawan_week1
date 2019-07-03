@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Mon formulaire</h1>
+    <form action="formulaire-tp.html" class="class-form">
+        <!-- Coordonnées -->
+        <fieldset class="coord">
+            <legend class="class-legend">Vos coordonnées</legend>
+            <div>
+                <label for="emailinput">Votre email</label>
+                <input type="email" name="e-mail" id="emailinput" placeholder="vchaillon@jehann.fr" autofocus>
+            </div>
+            <div>
+                <label for="nameinput">Votre nom</label>
+                <input type="text" name="firstname" id="nameinput" minlength="5" maxlength="15" required>
+            </div>
+
+            <div>
+                <label>Sexe</label>
+                <input type="radio" name="sex" id="masculin" checked>
+                <label for="masculin" class="label-check">Masculin</label>
+                <input type="radio" name="sex" id="feminin">
+                <label for="feminin" class="label-check">Féminin</label>
+            </div>
+            <div>
+                <label for="numberinput">Age</label>
+                <input type="number" name="age" id="numberinput" min="6" max="20" step="2">
+            </div>
+            <div>
+                <label for="dateinput">Date de naissance</label>
+                <input type="date" name="date" id="dateinput">
+            </div>
+        </fieldset>
+        <!-- Hobbies -->
+        <fieldset class="hobbies">
+                <legend class="class-legend">Vos hobbies</legend>
+            <div>
+                <label for="hobbiesselect">Choisir un loisirs</label>
+                <select name="hobbiesselect" id="hobbiesselect" >
+                    <optgroup label="Sports">
+                        <option value="m">Marathon</option>
+                        <option value="f" selected>Football</option>
+                    </optgroup>
+                    <optgroup label="Gaming">
+                        <option value="c">Ps4</option>
+                        <option value="ch" selected>PC</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label>Vos languages préférés</label>
+                <input type="checkbox" name="html" id="html">
+                <label for="html" class="label-check">HTML</label>
+                <input type="checkbox" name="css" id="css">
+                <label for="css" class="label-check">CSS</label>
+                <input type="checkbox" name="js" id="js">
+                <label for="js" class="label-check">JavaScript</label>
+            </div>
+            <div>
+                <label for="msg">Commentaire :</label>
+            </div>
+            <div>
+                <textarea name="message" id="msg" cols="30" rows="5"></textarea>
+            </div>
+        </fieldset>
+        <div class="class-button">
+            <button type="reset">Annuler</button>
+            <button>Envoyer</button>
+        </div>
+    </form>
+</body>
+</html>

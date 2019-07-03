@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+nav {
+    display: flex;
+    margin: auto;
+}
+
+#actu,#st,#dive,#ss,#actu {
+    padding: 1%;
+    border: solid 1px black;
+    text-align: center;
+    margin: auto;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 125%;
+}
+
+#actu {
+    order: 1;
+}
+
+#st {
+    order: 2;
+}
+
+#logo_title {
+    order: 3;
+    display: flex;
+    max-width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+#dive {
+    order: 4;
+}
+
+#ss {
+    order: 5;
+}
+
+#main {
+    border: 1px black solid; 
+    display: flex;
+}
+
+article {
+    padding: 1em;
+    display: block;
+    border: 1px black solid;
+}
+
+#allart {
+    left: 0px;
+    width: 80%;
+}
+
+.art {
+    margin: 1em 0.5em 1em 1em;
+}
+
+#bref {
+    width: 20%;
+    margin: 1em 1em 1em 0.5em ;
+
+}
+
+#title_bref {
+    text-align: center;
+}
+
+footer {
+    padding: 1% 2.5%;
+}
+
+hr {
+    margin: 2.5% 5%;
+}
+
+#fleche {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    max-width: 7.5%;
+    height: auto;
+}

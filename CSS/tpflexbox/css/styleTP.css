@@ -1,0 +1,39 @@
+#content-blue {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box-blue1,
+#box-blue2 {
+    width: 20%;
+    background-color: blue;
+}
+
+#content-orange {
+    background-color: orange;
+    height: 600px;
+    padding: 10px;
+}
+
+#content-orange div {
+    background: red;
+    margin: 10px;
+}
+
+#content-orange {
+    display: flex;
+}
+
+#box-red1,
+#box-red2 {
+    align-self: flex-start;
+}
+
+#box-red3 {
+    align-self: flex-end;
+}
+
+#box-red4 {
+    order: -2;
+}

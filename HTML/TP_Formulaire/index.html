@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Mon formulaire</h2>
+    <form action="#">
+        <fieldset>
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <div>
+                    <label for="" id="a">Votre email : </label>
+                    <input type="email" name="emailUser" id="emailUser" placeholder="vch@dawan.fr" required>
+                </div>
+                <div>
+                    <label for="" id="a">Votre nom : </label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div>
+                    <legend>Sexe</legend>
+                    <input type="radio" name="sex" id="h" checked>
+                    <label for="" id="a">Masculin</label>
+                </div>
+                <div>
+                    <input type="radio" name="sex" id="f">
+                    <label for="" id="a">Féminin</label>
+                </div>
+                <div>
+                    <label for="" id="a">Age</label>
+                    <input type="number" min="0" max="130">
+                </div>
+                <div>
+                    <label for="" id="a">Date de naissance</label>
+                    <input type="date" name="dateBirth" id="dateBirth">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Vos hobbies</legend>
+                <div>
+                    <label for="hobbies">Choisir un loisirs</label>
+                    <select name="petsSelect" id="petsSelect">
+                        <optgroup label="Gaming">
+                            <option value="pc">PC</option>
+                            <option value="ps4">PS4</option>
+                            <option value="switch">Nintendo Switch</option>
+                        </optgroup>
+                        <optgroup label="Sport">
+                            <option value="escalade">Escalade</option>
+                            <option value="football">Football</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Votre langage préféré</label>
+                    <div>
+                        <input type="radio" name="lang" id="html">
+                        <label for="html">HTML</label>
+                        <input type="radio" name="lang" id="css">
+                        <label for="css">CSS</label>
+                        <input type="radio" name="lang" id="js">
+                        <label for="js">JavaScript</label>
+                    </div>
+                </div>
+                <label for="com">Commentaire :</label>
+                <div>
+                    <textarea name="com" id="com" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <div>
+                <input type="reset" value="Annuler">
+                <input type="submit" value="Envoyer">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

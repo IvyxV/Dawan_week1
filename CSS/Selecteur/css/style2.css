@@ -1,0 +1,40 @@
+form {
+    border: 1px solid black;
+    width: 70%;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+h1 {
+    color: brown;
+}
+
+legend {
+    color: green;
+}
+
+.coord {
+    background-color: aquamarine;
+}
+
+.hobb {
+    background-color: beige;
+}
+label {
+    display: inline-block;
+    width: 6.5%; 
+}
+
+.sex {
+    display: inline-block;
+}
+
+.div {
+    padding: 5px;
+}
+
+button {
+    margin: 10px;
+}

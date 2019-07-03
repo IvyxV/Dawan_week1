@@ -1,0 +1,26 @@
+.header-nav a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    padding: 10px;
+    background: beige;
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.content-img:hover {
+    /* transform: translate(100px, 100px); */
+    /* transform: rotate(0.125turn); */
+    transform: scale(1.1) rotate(10deg);
+}

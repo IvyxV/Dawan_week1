@@ -1,0 +1,29 @@
+table {
+    background-color: green;
+}
+
+caption {
+    background-color: black;
+    color: yellow;
+}
+
+table,
+td {
+    border: 3px solid darkgray;
+}
+
+th {
+    background-color: orange;
+}
+
+tfoot {
+    color: green;
+}
+
+#yellow {
+    background-color: goldenrod;
+}
+
+#beige {
+    background-color: beige;
+}

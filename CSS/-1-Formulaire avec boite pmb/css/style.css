@@ -1,0 +1,57 @@
+h1
+{
+    color: palegreen;
+}
+form
+{
+    background-color:azure;
+    border: solid black 1px
+}
+.coord
+{
+    background-color:azure;
+    border: solid aqua 2px;
+}
+/**/
+.hobbies
+{
+    background:#feb99766;
+    border: solid 2px;
+}
+
+.class-legend
+{
+color: rgb(66, 128, 71);
+}
+
+button
+{
+background-color: black;
+color:azure;
+}
+/* AVEC BDMC padding marging border content */
+
+.class-form {
+    width:50%;
+}
+.class-form div {
+    margin:20px 30px;
+}
+
+/* On ne peut pas modifier un élément de type inline
+C'est pourquoi on utilise inline-block */
+label{
+    display:inline-block;
+    padding-right:7px;
+    width: 25%;
+    color: black;
+}
+
+.class-form .label-check {
+width:10%;
+color: #707070;
+}
+
+button {
+padding:10px;
+}

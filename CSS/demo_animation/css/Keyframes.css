@@ -1,0 +1,49 @@
+.header-nav a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    padding: 10px;
+    background: beige;
+    width: 50%;
+    margin: auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+#a {
+    flex-direction: column-reverse;
+}
+#sec:hover {
+    animation-name: oneMinute;
+    animation-duration: 60s;
+}
+
+@keyframes oneMinute {
+    0% {
+        rotate: (0deg);
+    }
+    1.66666% {
+        transform: rotate(6deg);
+    }
+    3.33333% {
+        transform: rotate(6deg);
+    }
+    4.99999933% {
+        transform: rotate(6deg);
+    }
+    6.66666533% {
+        transform: rotate(6deg);
+    }
+    100% {
+        opacity: 1;
+        transform: (1.5);
+    }
+}

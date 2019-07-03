@@ -1,0 +1,41 @@
+a,
+h2,
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#img1 {
+    position: fixed;
+}
+
+
+#img1:hover {
+    box-shadow: 10px 10px 10px black;
+}
+
+.article2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+
+a:hover {
+    color: brown;
+    opacity: 0.5;
+    text-decoration: underline dotted;
+}
+
+.article3 {
+    margin: 25px 500px;
+}
+#a {
+    position: absolute;
+}
+
+#a > #b {
+    position: relative;
+    top: 400px; right: 400²px;
+}
+
+.article4 {
+    background-image: url("https://www.tombreton.com/wp-content/uploads/2015/05/pixabay.com_banque-dimages-gratuites_tombreton.jpg");
+}

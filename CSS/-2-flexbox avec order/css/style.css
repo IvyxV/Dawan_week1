@@ -1,0 +1,38 @@
+#content-blue {
+display:flex;
+justify-content:space-between;
+background-color:aquamarine;
+}
+
+#box-blue1 ,#box-blue2 {
+width:20%;
+background-color:blue;
+padding:10px;
+}
+
+#content-orange {
+background-color:orange;
+height: 600px;
+display:flex;
+padding:10px;
+}
+
+#content-orange div {
+background:red;
+margin:10px;
+}
+
+#box-red1 {
+    order: 2;
+    align-self: flex-start;
+}
+
+#box-red3 {
+    order: 4;
+    align-self: flex-end;
+}
+
+#box-red2 {
+order:3;
+align-self:flex-start;
+}

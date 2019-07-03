@@ -1,0 +1,35 @@
+body {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+a,
+p,
+h2 {
+    color: grey;
+}
+
+.par1 {
+    color: green;
+}
+
+.par2 {
+    color: black;
+}
+
+#header {
+    background-color: coral;
+}
+
+.article1 p span {
+    color: cornflowerblue;
+}
+input[type="text"] {
+    background-color: red;
+}
+a:hover{
+    color: black;
+}
